@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+/* classi base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 85vh;
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-14 {
+    position: relative;
+    height: calc(100%/5);
+    width: calc(100%/7);
+    border: 1px solid black;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* fine classi base */
+/* inizio main */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -14,10 +46,34 @@ main {
 
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+
+.pinco {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.503);
+    padding: 0px 5px 5px 5px;
+    color: #fff;
 }
 
+.speaker {
+    background-color: rgba(111, 111, 111, 0.503);
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.speaker1 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    color: #fff;
+}
+
+/* inizio footer */
 footer {
     display: fixed;
     height: 60px;
@@ -62,52 +118,4 @@ footer {
     height: 100%;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container {
-    height: 85vh;
-    width: 90vw;
-}
-
-.col-14 {
-    position: relative;
-    height: calc(100%/5);
-    width: calc(100%/7);
-    border: 1px solid black;
-    background-image: url(https://picsum.photos/seed/picsum/200/300);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.pinco {
-    position: absolute;
-    bottom: 5px;
-    left: 0px;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.503);
-    padding: 0px 5px 5px 5px;
-    color: #fff;
-}
-
-.speaker {
-    background-color: rgba(111, 111, 111, 0.503);
-    color: #fff;
-    padding: 2px 5px;
-    border-radius: 5px;
-    margin: 2px;
-}
-
-.speaker1 {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    display: flex;
-    color: #fff;
-}
-
-.text-center {
-    text-align: center;
-}
+/* fine footer */
