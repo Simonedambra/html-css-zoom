@@ -10,7 +10,7 @@ main {
     justify-content: center;
     height: calc(100vh - 60px);
     padding: 40px 0px 0px 0px;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -50,5 +50,21 @@ footer {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.503);
     padding: 0px 5px 5px 5px;
+    color: #fff;
+}
+
+.speaker {
+    background-color: rgba(111, 111, 111, 0.503);
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.speaker1 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
     color: #fff;
 }
