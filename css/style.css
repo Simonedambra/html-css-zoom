@@ -9,8 +9,13 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     height: calc(100vh - 60px);
+    padding: 40px 0px 0px 0px;
     background-color: blue;
 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
@@ -19,8 +24,31 @@ footer {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
     height: 85vh;
     width: 90vw;
-    margin: 40px 0px 0px 0px;
-    background-color: blueviolet;
+}
+
+.col-14 {
+    position: relative;
+    height: calc(100%/5);
+    width: calc(100%/7);
+    border: 1px solid black;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pinco {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.503);
+    padding: 0px 5px 5px 5px;
+    color: #fff;
 }
